@@ -7,13 +7,13 @@ function preload() {
 
     bg = loadImage("garden.png");
 
-    tomImg1= loadAnimation("cat1.png");
+    tomImg1= loadImage("cat1.png");
     tomImg2=loadAnimation("cat2.png","cat3.png");
-    tomImg3= loadAnimation("cat4.png");
+    tomImg3= loadImage("cat4.png");
 
-    jerryImg1=loadAnimation("mouse1.png");
+    jerryImg1=loadImage("mouse1.png");
     jerryImg2= loadAnimation("mouse2.png","mouse3.png");
-    jerryImg3=loadAnimation("mouse4.png");
+    jerryImg3=loadImage("mouse4.png");
 }
 
 function setup(){
