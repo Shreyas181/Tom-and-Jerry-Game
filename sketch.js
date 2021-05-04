@@ -1,6 +1,6 @@
-var canvas,bg;
-var tom,tomImg1,tomImg2;
-var jerry,jerryImg1,jerryImg2;
+var bg;
+var tom,tomImg1,tomImg2,tomIng3;
+var jerry,jerryImg1,jerryImg2,jerryImg3;
 
 function preload() {
     //load the images here
@@ -17,7 +17,7 @@ function preload() {
 }
 
 function setup(){
-    canvas = createCanvas(1000,800);
+    createCanvas(1000,800);
     //create tom and jerry sprites here
 
     tom = createSprite(870, 600);
