@@ -1,11 +1,11 @@
-var canvas,background;
-var tom,tomImg1,tomImg2,tomIng3;
-var jerry,jerryImg1,jerryImg2,jerryImg3;
+var canvas,bg;
+var tom,tomImg1,tomImg2;
+var jerry,jerryImg1,jerryImg2;
 
 function preload() {
     //load the images here
 
-    background = loadImage("images/garden.png");
+    bg = loadImage("images/garden.png");
 
     tomImg1= loadAnimation("images/cat1.png");
     tomImg2=loadAnimation("images/cat2.png","images/cat3.png");
@@ -32,7 +32,7 @@ function setup(){
 
 function draw() {
 
-    background(background);
+    background(bg);
     //Write condition here to evalute if tom and jerry collide
 
     if(tom.x - jerry.x < (tom.width - jerry.width)/2) { 
